@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ <head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<!-- TemplateBeginEditable name="doctitle" --> 
+<title>PanoramaAR</title> 
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<!-- TemplateEndEditable --> 
+<!-- TemplateBeginEditable name="head" --> 
+<!-- TemplateEndEditable --> 
+<style>
+            #main{ /*選到主頁面*/
+                display: none; /*隱藏起來*/
+
+            }
+        </style>
+        <!--載入jquery函式庫-->
+        <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+    </head>
+    <body>
+<div id="IMG_1"><img src="image/back_anime01.gif"></div>
+<div id="IMG_2"><img src="image/back_anime02.gif"></div>
+</p> <!--主頁面設個id=main，如此可以在css或javascript選到這個元素-->
+        <p>&nbsp; </p>
+        <SCRIPT LANGUAGE="javascript">
+
+var password = prompt("請輸入密碼","")
+if (password=="123"||password=="222")
+{
+alert('Welcome!')
+$('#main').show();
+}
+else
+{
+if (password=="null")
+{
+alert('請再輸入一次密碼');
+}
+else
+if (password!="123")
+{
+alert('請再輸入一次密碼');
+}
+} 
+</SCRIPT> 
+
+</body> 
+</html> 
+
