@@ -20,26 +20,29 @@
     <body>
 <div id="IMG_1"><img src="image/back_anime01.gif"></div>
 <div id="IMG_2"><img src="image/back_anime02.gif"></div>
+<div id="IMG_3"><img src="image/back_anime03.gif"></div>
 </p> <!--主頁面設個id=main，如此可以在css或javascript選到這個元素-->
         <p>&nbsp; </p>
         <SCRIPT LANGUAGE="javascript">
 
-var password = prompt("Login No.")
-if (password=="123"||password=="001")
+var password = prompt("Login No.","")
+if (password=="123"||password=="222")
 {
-alert('Thank You! Open *PANORAMA AR*')
+alert('Hi!')
 $('#main').show();
 }
 else
 {
 if (password=="null")
 {
-alert('Wrong login No.');
+alert('Wrong Login No.');
+
 }
 else
 if (password!="123")
 {
-alert('Wrong login No.');
+alert('Wrong Login No.');
+
 }
 } 
 </SCRIPT> 

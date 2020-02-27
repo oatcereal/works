@@ -72,7 +72,7 @@ body {
     height:auto;
     background-color:#78FF78;
     position:absolute;
-    top:1500px;
+    top:3100px;
     left:40px;
 }
 #IMG_2{
@@ -82,6 +82,15 @@ body {
     position:absolute;
     top:400px;
     left:800px;
+}
+
+#IMG_3{
+   width:120px;
+    height:100px;
+    background-color:#78FF78;
+    position:absolute;
+    top:800px;
+    left:-450px;
 }
 
 
